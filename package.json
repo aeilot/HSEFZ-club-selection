@@ -1,27 +1,17 @@
 {
   "name": "hsefz-club-selection",
-  "version": "1.0.0",
-  "description": "HSEFZ club selection system",
+  "version": "0.0.0",
+  "private": true,
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aeilot/HSEFZ-club-selection.git"
-  },
-  "keywords": [
-    "club-selection",
-    "hsefz",
-    "HSEFZ"
-  ],
-  "author": "满五",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/aeilot/HSEFZ-club-selection/issues"
-  },
-  "homepage": "https://github.com/aeilot/HSEFZ-club-selection#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
   }
 }
